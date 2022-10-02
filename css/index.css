@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+body { padding-top: 70px; }
+
+
+
+
+
+.bg-dark {
+    background-color: #006994!important;
+}
+
+.nav-link {
+    color: white!important;
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: lightgray!important;
+}
+
+.dropdown-item:hover {
+    color: #e31010 !important;
+    background-color: #80ADCC!important;
+}
+
+.slider {
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 60%;
+}
+
+.main {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.line {
+    background-color: #006994;
+}
+
+.album {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card {
+    border: none;
+}
+
+.card-img {
+    border-radius: 10%;
+    height: 280px;
+}
+
+.card-title a {
+    text-decoration: none!important;
+    color: white;
+
+}
+
+.card:hover {
+    opacity: 0.8;
+}
+
+.footer {
+    background-color: #222525;
+}
+
+.social a {
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 5px;
+}
